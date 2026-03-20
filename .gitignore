@@ -1,0 +1,21 @@
+node_modules
+.env
+dist
+private
+private.pub
+
+# Never commit your local SSH private keys
+id_rsa
+id_ed25519
+id_ecdsa
+id_rsa_sk
+id_ed25519_sk
+id_ecdsa_sk
+
+# If you accidentally keep SSH keys inside a .ssh folder in this repo
+**/.ssh/
+**/.ssh/id_rsa
+**/.ssh/id_ed25519
+**/.ssh/id_ecdsa
+**/.ssh/*.pem
+**/.ssh/*.key
