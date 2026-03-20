@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Hello World!  v3");
+    res.send("its a end to end github actions setup");
 });
 
 const port = Number(process.env.PORT) || 3000;
